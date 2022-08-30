@@ -23,7 +23,7 @@
                                     <constraint firstAttribute="width" constant="340" id="VOB-8T-dxF"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Putos Perros Producciones" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6p-sI-50g">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Putos Perros Projects" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6p-sI-50g">
                                 <rect key="frame" x="50" y="489" width="314" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="40P-lF-bq3"/>
@@ -57,4 +57,3 @@
         </systemColor>
     </resources>
 </document>
-

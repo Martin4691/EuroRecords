@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B48000428BE5F2C000BEAE7 /* YearCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48000228BE5F2C000BEAE7 /* YearCell.swift */; };
+		5B48000528BE5F2C000BEAE7 /* YearCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B48000328BE5F2C000BEAE7 /* YearCell.xib */; };
+		5B48000828BE5F95000BEAE7 /* ResultRaffleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48000628BE5F95000BEAE7 /* ResultRaffleTVC.swift */; };
+		5B48000928BE5F95000BEAE7 /* ResultRaffleTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B48000728BE5F95000BEAE7 /* ResultRaffleTVC.xib */; };
 		5B48FFD428BE55E8000BEAE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFD328BE55E8000BEAE7 /* AppDelegate.swift */; };
 		5B48FFD628BE55E8000BEAE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFD528BE55E8000BEAE7 /* SceneDelegate.swift */; };
 		5B48FFDB28BE55E8000BEAE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B48FFD928BE55E8000BEAE7 /* Main.storyboard */; };
@@ -17,10 +21,7 @@
 		5B48FFED28BE5849000BEAE7 /* LandScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFEC28BE5849000BEAE7 /* LandScreenVC.swift */; };
 		5B48FFEF28BE5880000BEAE7 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFEE28BE5880000BEAE7 /* LoadingViewController.swift */; };
 		5B48FFF128BE58C9000BEAE7 /* RaffleInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFF028BE58C9000BEAE7 /* RaffleInfoCell.swift */; };
-		5B48FFF328BE58FD000BEAE7 /* ResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFF228BE58FD000BEAE7 /* ResultCell.swift */; };
-		5B48FFF528BE593B000BEAE7 /* ResultRaffleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFF428BE593B000BEAE7 /* ResultRaffleTVC.swift */; };
 		5B48FFF728BE5974000BEAE7 /* ReusableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFF628BE5974000BEAE7 /* ReusableTableViewController.swift */; };
-		5B48FFF928BE59AF000BEAE7 /* YearCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFF828BE59AF000BEAE7 /* YearCell.swift */; };
 		5B48FFFB28BE59F0000BEAE7 /* YearSelectorCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFFA28BE59F0000BEAE7 /* YearSelectorCollectionVC.swift */; };
 		5B48FFFD28BE5A32000BEAE7 /* YearSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFFC28BE5A32000BEAE7 /* YearSelectorVC.swift */; };
 		92330AABEC369241ADF169CC /* Pods_EuroResults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAFF99B21E61135A47F26B9 /* Pods_EuroResults.framework */; };
@@ -29,6 +30,10 @@
 /* Begin PBXFileReference section */
 		16792A74F08F1EBC07745D23 /* Pods-EuroResults.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroResults.debug.xcconfig"; path = "Target Support Files/Pods-EuroResults/Pods-EuroResults.debug.xcconfig"; sourceTree = "<group>"; };
 		2872A2226C45E30C5116314C /* Pods-EuroResults.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroResults.release.xcconfig"; path = "Target Support Files/Pods-EuroResults/Pods-EuroResults.release.xcconfig"; sourceTree = "<group>"; };
+		5B48000228BE5F2C000BEAE7 /* YearCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearCell.swift; sourceTree = "<group>"; };
+		5B48000328BE5F2C000BEAE7 /* YearCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YearCell.xib; sourceTree = "<group>"; };
+		5B48000628BE5F95000BEAE7 /* ResultRaffleTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRaffleTVC.swift; sourceTree = "<group>"; };
+		5B48000728BE5F95000BEAE7 /* ResultRaffleTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultRaffleTVC.xib; sourceTree = "<group>"; };
 		5B48FFD028BE55E8000BEAE7 /* EuroResults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuroResults.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B48FFD328BE55E8000BEAE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B48FFD528BE55E8000BEAE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +46,7 @@
 		5B48FFEC28BE5849000BEAE7 /* LandScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandScreenVC.swift; sourceTree = "<group>"; };
 		5B48FFEE28BE5880000BEAE7 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		5B48FFF028BE58C9000BEAE7 /* RaffleInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleInfoCell.swift; sourceTree = "<group>"; };
-		5B48FFF228BE58FD000BEAE7 /* ResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCell.swift; sourceTree = "<group>"; };
-		5B48FFF428BE593B000BEAE7 /* ResultRaffleTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRaffleTVC.swift; sourceTree = "<group>"; };
 		5B48FFF628BE5974000BEAE7 /* ReusableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableViewController.swift; sourceTree = "<group>"; };
-		5B48FFF828BE59AF000BEAE7 /* YearCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearCell.swift; sourceTree = "<group>"; };
 		5B48FFFA28BE59F0000BEAE7 /* YearSelectorCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearSelectorCollectionVC.swift; sourceTree = "<group>"; };
 		5B48FFFC28BE5A32000BEAE7 /* YearSelectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearSelectorVC.swift; sourceTree = "<group>"; };
 		EFAFF99B21E61135A47F26B9 /* Pods_EuroResults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EuroResults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,13 +98,14 @@
 				5B48FFD328BE55E8000BEAE7 /* AppDelegate.swift */,
 				5B48FFD528BE55E8000BEAE7 /* SceneDelegate.swift */,
 				5B48FFEE28BE5880000BEAE7 /* LoadingViewController.swift */,
-				5B48FFF228BE58FD000BEAE7 /* ResultCell.swift */,
-				5B48FFF828BE59AF000BEAE7 /* YearCell.swift */,
+				5B48000228BE5F2C000BEAE7 /* YearCell.swift */,
+				5B48000328BE5F2C000BEAE7 /* YearCell.xib */,
 				5B48FFFA28BE59F0000BEAE7 /* YearSelectorCollectionVC.swift */,
 				5B48FFFC28BE5A32000BEAE7 /* YearSelectorVC.swift */,
 				5B48FFF628BE5974000BEAE7 /* ReusableTableViewController.swift */,
-				5B48FFF428BE593B000BEAE7 /* ResultRaffleTVC.swift */,
 				5B48FFE828BE5751000BEAE7 /* FetchManagers.swift */,
+				5B48000628BE5F95000BEAE7 /* ResultRaffleTVC.swift */,
+				5B48000728BE5F95000BEAE7 /* ResultRaffleTVC.xib */,
 				5B48FFEC28BE5849000BEAE7 /* LandScreenVC.swift */,
 				5B48FFEA28BE57AE000BEAE7 /* ViewModels.swift */,
 				5B48FFF028BE58C9000BEAE7 /* RaffleInfoCell.swift */,
@@ -132,6 +135,7 @@
 				5B48FFCC28BE55E8000BEAE7 /* Sources */,
 				5B48FFCD28BE55E8000BEAE7 /* Frameworks */,
 				5B48FFCE28BE55E8000BEAE7 /* Resources */,
+				9749AC0CFDA0668DF1C0D006 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,9 +184,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B48000928BE5F95000BEAE7 /* ResultRaffleTVC.xib in Resources */,
 				5B48FFE028BE55EB000BEAE7 /* LaunchScreen.storyboard in Resources */,
 				5B48FFDD28BE55EB000BEAE7 /* Assets.xcassets in Resources */,
 				5B48FFDB28BE55E8000BEAE7 /* Main.storyboard in Resources */,
+				5B48000528BE5F2C000BEAE7 /* YearCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +217,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9749AC0CFDA0668DF1C0D006 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EuroResults/Pods-EuroResults-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EuroResults/Pods-EuroResults-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EuroResults/Pods-EuroResults-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -221,16 +244,15 @@
 				5B48FFFB28BE59F0000BEAE7 /* YearSelectorCollectionVC.swift in Sources */,
 				5B48FFD428BE55E8000BEAE7 /* AppDelegate.swift in Sources */,
 				5B48FFD628BE55E8000BEAE7 /* SceneDelegate.swift in Sources */,
-				5B48FFF328BE58FD000BEAE7 /* ResultCell.swift in Sources */,
 				5B48FFF128BE58C9000BEAE7 /* RaffleInfoCell.swift in Sources */,
+				5B48000828BE5F95000BEAE7 /* ResultRaffleTVC.swift in Sources */,
 				5B48FFF728BE5974000BEAE7 /* ReusableTableViewController.swift in Sources */,
 				5B48FFFD28BE5A32000BEAE7 /* YearSelectorVC.swift in Sources */,
 				5B48FFEB28BE57AE000BEAE7 /* ViewModels.swift in Sources */,
 				5B48FFED28BE5849000BEAE7 /* LandScreenVC.swift in Sources */,
 				5B48FFE928BE5751000BEAE7 /* FetchManagers.swift in Sources */,
-				5B48FFF928BE59AF000BEAE7 /* YearCell.swift in Sources */,
-				5B48FFF528BE593B000BEAE7 /* ResultRaffleTVC.swift in Sources */,
 				5B48FFEF28BE5880000BEAE7 /* LoadingViewController.swift in Sources */,
+				5B48000428BE5F2C000BEAE7 /* YearCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

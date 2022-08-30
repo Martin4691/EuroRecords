@@ -5,7 +5,6 @@
 //  Created by Martín on 30/8/22.
 //
 
-import Foundation
 import UIKit
 
 class ResultRaffleTVC: UITableViewCell {
