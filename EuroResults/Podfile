@@ -1,0 +1,11 @@
+# platform :ios, '9.0'
+
+target 'EuroResults' do
+
+use_frameworks!
+
+	pod 'Alamofire'
+	pod 'AlamofireImage', '~> 4.1'
+  pod 'SkeletonView'
+
+end

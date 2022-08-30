@@ -1,0 +1,6 @@
+framework module Pods_EuroResults {
+  umbrella header "Pods-EuroResults-umbrella.h"
+
+  export *
+  module * { export * }
+}
