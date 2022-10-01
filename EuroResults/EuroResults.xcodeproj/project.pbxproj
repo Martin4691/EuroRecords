@@ -19,11 +19,8 @@
 		5B48FFE928BE5751000BEAE7 /* FetchManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFE828BE5751000BEAE7 /* FetchManagers.swift */; };
 		5B48FFEB28BE57AE000BEAE7 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFEA28BE57AE000BEAE7 /* ViewModels.swift */; };
 		5B48FFED28BE5849000BEAE7 /* LandScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFEC28BE5849000BEAE7 /* LandScreenVC.swift */; };
-		5B48FFEF28BE5880000BEAE7 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFEE28BE5880000BEAE7 /* LoadingViewController.swift */; };
-		5B48FFF128BE58C9000BEAE7 /* RaffleInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFF028BE58C9000BEAE7 /* RaffleInfoCell.swift */; };
 		5B48FFF728BE5974000BEAE7 /* ReusableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFF628BE5974000BEAE7 /* ReusableTableViewController.swift */; };
 		5B48FFFB28BE59F0000BEAE7 /* YearSelectorCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFFA28BE59F0000BEAE7 /* YearSelectorCollectionVC.swift */; };
-		5B48FFFD28BE5A32000BEAE7 /* YearSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48FFFC28BE5A32000BEAE7 /* YearSelectorVC.swift */; };
 		92330AABEC369241ADF169CC /* Pods_EuroResults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAFF99B21E61135A47F26B9 /* Pods_EuroResults.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,11 +41,8 @@
 		5B48FFE828BE5751000BEAE7 /* FetchManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchManagers.swift; sourceTree = "<group>"; };
 		5B48FFEA28BE57AE000BEAE7 /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
 		5B48FFEC28BE5849000BEAE7 /* LandScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandScreenVC.swift; sourceTree = "<group>"; };
-		5B48FFEE28BE5880000BEAE7 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
-		5B48FFF028BE58C9000BEAE7 /* RaffleInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleInfoCell.swift; sourceTree = "<group>"; };
 		5B48FFF628BE5974000BEAE7 /* ReusableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTableViewController.swift; sourceTree = "<group>"; };
 		5B48FFFA28BE59F0000BEAE7 /* YearSelectorCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearSelectorCollectionVC.swift; sourceTree = "<group>"; };
-		5B48FFFC28BE5A32000BEAE7 /* YearSelectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearSelectorVC.swift; sourceTree = "<group>"; };
 		EFAFF99B21E61135A47F26B9 /* Pods_EuroResults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EuroResults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,26 +87,47 @@
 		5B48FFD228BE55E8000BEAE7 /* EuroResults */ = {
 			isa = PBXGroup;
 			children = (
-				5B48FFDC28BE55EB000BEAE7 /* Assets.xcassets */,
+				5BB08EEB28D6457600222D20 /* Year Selector Collection View */,
+				5BB08EEA28D6455B00222D20 /* Reusable Table View */,
+				5B48FFEA28BE57AE000BEAE7 /* ViewModels.swift */,
+				5B48FFE828BE5751000BEAE7 /* FetchManagers.swift */,
+				5B48FFEC28BE5849000BEAE7 /* LandScreenVC.swift */,
+				5B48FFD928BE55E8000BEAE7 /* Main.storyboard */,
+				5B48FFDE28BE55EB000BEAE7 /* LaunchScreen.storyboard */,
+				5BB08EE928D6440600222D20 /* Others */,
 				5B48FFE128BE55EB000BEAE7 /* Info.plist */,
+			);
+			path = EuroResults;
+			sourceTree = "<group>";
+		};
+		5BB08EE928D6440600222D20 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				5B48FFDC28BE55EB000BEAE7 /* Assets.xcassets */,
 				5B48FFD328BE55E8000BEAE7 /* AppDelegate.swift */,
 				5B48FFD528BE55E8000BEAE7 /* SceneDelegate.swift */,
-				5B48FFEE28BE5880000BEAE7 /* LoadingViewController.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		5BB08EEA28D6455B00222D20 /* Reusable Table View */ = {
+			isa = PBXGroup;
+			children = (
+				5B48FFF628BE5974000BEAE7 /* ReusableTableViewController.swift */,
+				5B48000628BE5F95000BEAE7 /* ResultRaffleTVC.swift */,
+				5B48000728BE5F95000BEAE7 /* ResultRaffleTVC.xib */,
+			);
+			path = "Reusable Table View";
+			sourceTree = "<group>";
+		};
+		5BB08EEB28D6457600222D20 /* Year Selector Collection View */ = {
+			isa = PBXGroup;
+			children = (
 				5B48000228BE5F2C000BEAE7 /* YearCell.swift */,
 				5B48000328BE5F2C000BEAE7 /* YearCell.xib */,
 				5B48FFFA28BE59F0000BEAE7 /* YearSelectorCollectionVC.swift */,
-				5B48FFFC28BE5A32000BEAE7 /* YearSelectorVC.swift */,
-				5B48FFF628BE5974000BEAE7 /* ReusableTableViewController.swift */,
-				5B48FFE828BE5751000BEAE7 /* FetchManagers.swift */,
-				5B48000628BE5F95000BEAE7 /* ResultRaffleTVC.swift */,
-				5B48000728BE5F95000BEAE7 /* ResultRaffleTVC.xib */,
-				5B48FFEC28BE5849000BEAE7 /* LandScreenVC.swift */,
-				5B48FFEA28BE57AE000BEAE7 /* ViewModels.swift */,
-				5B48FFF028BE58C9000BEAE7 /* RaffleInfoCell.swift */,
-				5B48FFD928BE55E8000BEAE7 /* Main.storyboard */,
-				5B48FFDE28BE55EB000BEAE7 /* LaunchScreen.storyboard */,
 			);
-			path = EuroResults;
+			path = "Year Selector Collection View";
 			sourceTree = "<group>";
 		};
 		739F394A605E143152CEDD9B /* Pods */ = {
@@ -244,14 +259,11 @@
 				5B48FFFB28BE59F0000BEAE7 /* YearSelectorCollectionVC.swift in Sources */,
 				5B48FFD428BE55E8000BEAE7 /* AppDelegate.swift in Sources */,
 				5B48FFD628BE55E8000BEAE7 /* SceneDelegate.swift in Sources */,
-				5B48FFF128BE58C9000BEAE7 /* RaffleInfoCell.swift in Sources */,
 				5B48000828BE5F95000BEAE7 /* ResultRaffleTVC.swift in Sources */,
 				5B48FFF728BE5974000BEAE7 /* ReusableTableViewController.swift in Sources */,
-				5B48FFFD28BE5A32000BEAE7 /* YearSelectorVC.swift in Sources */,
 				5B48FFEB28BE57AE000BEAE7 /* ViewModels.swift in Sources */,
 				5B48FFED28BE5849000BEAE7 /* LandScreenVC.swift in Sources */,
 				5B48FFE928BE5751000BEAE7 /* FetchManagers.swift in Sources */,
-				5B48FFEF28BE5880000BEAE7 /* LoadingViewController.swift in Sources */,
 				5B48000428BE5F2C000BEAE7 /* YearCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -97,10 +97,10 @@ class YearSelectorCollectionVC: UICollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-    
+        
         if let yearCellConfig = (cell as? YearCell) {
             yearCellConfig.yearCellLabel.text = yearList[indexPath.row]
-            
+                
         } else {
             cell.backgroundColor = .black
         }
@@ -163,3 +163,30 @@ extension YearSelectorCollectionVC {
     
 }
 
+/*
+extension YearSelectorCollectionVC: UICollectionViewDelegateFlowLayout {
+    // Method to configure cells wich adapt to any device width:
+        private func configureSize(numOfHorizontalCells: CGFloat, marginBetweenCells: CGFloat) {
+            
+            guard let layout = collectionView.collectionViewLayout as? UICollectionViewDelegateFlowLayout else { return}
+            
+            let totalMarginBetweenCells: CGFloat = marginBetweenCells * (numOfHorizontalCells - 1)
+            
+            let marginPerCell: CGFloat = totalMarginBetweenCells / numOfHorizontalCells
+            
+            
+            
+            let cellWidth = frameWidth / numOfHorizontalCells - marginPerCell
+            
+            let cellHeight = cellWidth
+            
+//            layout.minimumLineSpacing = 0
+    //        layout.minimumInterSpacing = 0
+    //
+    //        layout.estimatedItemSize = .zero
+    //        layout.itemSize = CGSize(width: cellWidth, height: cellHeight)
+    //
+        }
+
+}
+ */

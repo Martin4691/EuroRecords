@@ -15,4 +15,10 @@ class YearCell: UICollectionViewCell {
         super.awakeFromNib()
     }
     
+    
+    
+    var yearCellWidth: CGFloat = 100
+    var yearCellHeigth: CGFloat = 100
+    
+    
 }
